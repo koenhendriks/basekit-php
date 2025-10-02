@@ -15,7 +15,7 @@ use SandwaveIo\BaseKit\Api\SslApi;
 use SandwaveIo\BaseKit\Api\UserApi;
 use SandwaveIo\BaseKit\Support\AuthorizedClient;
 
-final class BaseKit
+class BaseKit
 {
     const BASE_URL = 'https://example.com';
 

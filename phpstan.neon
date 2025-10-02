@@ -11,6 +11,8 @@ parameters:
         - tests
 
     ignoreErrors:
+        - '#Class SandwaveIo\\BaseKit\\BaseKit is neither abstract nor final.#'
+
         # Extending classes.
         - '#Class \"[a-zA-Z0-9\\_]+\" is not allowed to extend \"[a-zA-Z0-9\\_]+\".#'
 
